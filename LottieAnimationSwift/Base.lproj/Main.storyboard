@@ -33,6 +33,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="I4U-dz-8Ol" secondAttribute="bottom" constant="65" id="eh8-Ks-Z8B"/>
                             <constraint firstItem="I4U-dz-8Ol" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gHR-iv-jz6"/>
