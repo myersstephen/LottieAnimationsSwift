@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func StartBtnPressed(_ sender: Any) {
-        let animationView = LAAnimationView.animationNamed("IntroN")
+        let animationView = LAAnimationView.animationNamed("LottieLogo2")
         animationView?.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
         animationView?.contentMode = .scaleAspectFit
         animationView?.loopAnimation = true
