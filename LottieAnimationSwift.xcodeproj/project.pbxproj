@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69E5E3251E4952FF0082246E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5E3241E4952FF0082246E /* AppDelegate.swift */; };
+		69E5E3271E4952FF0082246E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5E3261E4952FF0082246E /* ViewController.swift */; };
+		69E5E32A1E4952FF0082246E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3281E4952FF0082246E /* Main.storyboard */; };
+		69E5E32C1E4952FF0082246E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E32B1E4952FF0082246E /* Assets.xcassets */; };
+		69E5E32F1E4952FF0082246E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E32D1E4952FF0082246E /* LaunchScreen.storyboard */; };
+		69E5E36F1E4960A90082246E /* 9squares-AlBoardman.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3441E4960A90082246E /* 9squares-AlBoardman.json */; };
+		69E5E3701E4960A90082246E /* HamburgerArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3451E4960A90082246E /* HamburgerArrow.json */; };
+		69E5E3711E4960A90082246E /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3461E4960A90082246E /* IconTransitions.json */; };
+		69E5E3721E4960A90082246E /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3471E4960A90082246E /* LottieLogo1.json */; };
+		69E5E3731E4960A90082246E /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3481E4960A90082246E /* LottieLogo1_masked.json */; };
+		69E5E3741E4960A90082246E /* LottieLogo2.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3491E4960A90082246E /* LottieLogo2.json */; };
+		69E5E3751E4960A90082246E /* MotionCorpse-Jrcanest.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E34A1E4960A90082246E /* MotionCorpse-Jrcanest.json */; };
+		69E5E3761E4960A90082246E /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E34B1E4960A90082246E /* PinJump.json */; };
+		69E5E3771E4960A90082246E /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E34C1E4960A90082246E /* TwitterHeart.json */; };
+		69E5E3781E4960A90082246E /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E34E1E4960A90082246E /* A.json */; };
+		69E5E3791E4960A90082246E /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E34F1E4960A90082246E /* Apostrophe.json */; };
+		69E5E37A1E4960A90082246E /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3501E4960A90082246E /* B.json */; };
+		69E5E37B1E4960A90082246E /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3511E4960A90082246E /* BlinkingCursor.json */; };
+		69E5E37C1E4960A90082246E /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3521E4960A90082246E /* C.json */; };
+		69E5E37D1E4960A90082246E /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3531E4960A90082246E /* Colon.json */; };
+		69E5E37E1E4960A90082246E /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3541E4960A90082246E /* Comma.json */; };
+		69E5E37F1E4960A90082246E /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3551E4960A90082246E /* D.json */; };
+		69E5E3801E4960A90082246E /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3561E4960A90082246E /* E.json */; };
+		69E5E3811E4960A90082246E /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3571E4960A90082246E /* F.json */; };
+		69E5E3821E4960A90082246E /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3581E4960A90082246E /* G.json */; };
+		69E5E3831E4960A90082246E /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3591E4960A90082246E /* H.json */; };
+		69E5E3841E4960A90082246E /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E35A1E4960A90082246E /* I.json */; };
+		69E5E3851E4960A90082246E /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E35B1E4960A90082246E /* J.json */; };
+		69E5E3861E4960A90082246E /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E35C1E4960A90082246E /* K.json */; };
+		69E5E3871E4960A90082246E /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E35D1E4960A90082246E /* L.json */; };
+		69E5E3881E4960A90082246E /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E35E1E4960A90082246E /* M.json */; };
+		69E5E3891E4960A90082246E /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E35F1E4960A90082246E /* N.json */; };
+		69E5E38A1E4960A90082246E /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3601E4960A90082246E /* O.json */; };
+		69E5E38B1E4960A90082246E /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3611E4960A90082246E /* P.json */; };
+		69E5E38C1E4960A90082246E /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3621E4960A90082246E /* Q.json */; };
+		69E5E38D1E4960A90082246E /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3631E4960A90082246E /* R.json */; };
+		69E5E38E1E4960A90082246E /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3641E4960A90082246E /* S.json */; };
+		69E5E38F1E4960A90082246E /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3651E4960A90082246E /* T.json */; };
+		69E5E3901E4960A90082246E /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3661E4960A90082246E /* U.json */; };
+		69E5E3911E4960A90082246E /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3671E4960A90082246E /* V.json */; };
+		69E5E3921E4960A90082246E /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3681E4960A90082246E /* W.json */; };
+		69E5E3931E4960A90082246E /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3691E4960A90082246E /* X.json */; };
+		69E5E3941E4960A90082246E /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E36A1E4960A90082246E /* Y.json */; };
+		69E5E3951E4960A90082246E /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E36B1E4960A90082246E /* Z.json */; };
+		69E5E3961E4960A90082246E /* vcTransition1.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E36C1E4960A90082246E /* vcTransition1.json */; };
+		69E5E3971E4960A90082246E /* vcTransition2.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E36D1E4960A90082246E /* vcTransition2.json */; };
+		69E5E3981E4960A90082246E /* Watermelon.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E36E1E4960A90082246E /* Watermelon.json */; };
+		83A67709EB241BD5B648BAAB /* Pods_LottieAnimationSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DE04180EC5311334B05058 /* Pods_LottieAnimationSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69E5E3211E4952FF0082246E /* LottieAnimationSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimationSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E5E3241E4952FF0082246E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69E5E3261E4952FF0082246E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69E5E3291E4952FF0082246E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69E5E32B1E4952FF0082246E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69E5E32E1E4952FF0082246E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69E5E3301E4952FF0082246E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E5E3441E4960A90082246E /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
+		69E5E3451E4960A90082246E /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HamburgerArrow.json; sourceTree = "<group>"; };
+		69E5E3461E4960A90082246E /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		69E5E3471E4960A90082246E /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		69E5E3481E4960A90082246E /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
+		69E5E3491E4960A90082246E /* LottieLogo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
+		69E5E34A1E4960A90082246E /* MotionCorpse-Jrcanest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MotionCorpse-Jrcanest.json"; sourceTree = "<group>"; };
+		69E5E34B1E4960A90082246E /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		69E5E34C1E4960A90082246E /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		69E5E34E1E4960A90082246E /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		69E5E34F1E4960A90082246E /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
+		69E5E3501E4960A90082246E /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		69E5E3511E4960A90082246E /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
+		69E5E3521E4960A90082246E /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		69E5E3531E4960A90082246E /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
+		69E5E3541E4960A90082246E /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
+		69E5E3551E4960A90082246E /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		69E5E3561E4960A90082246E /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		69E5E3571E4960A90082246E /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		69E5E3581E4960A90082246E /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		69E5E3591E4960A90082246E /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
+		69E5E35A1E4960A90082246E /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
+		69E5E35B1E4960A90082246E /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
+		69E5E35C1E4960A90082246E /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
+		69E5E35D1E4960A90082246E /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
+		69E5E35E1E4960A90082246E /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
+		69E5E35F1E4960A90082246E /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		69E5E3601E4960A90082246E /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
+		69E5E3611E4960A90082246E /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		69E5E3621E4960A90082246E /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		69E5E3631E4960A90082246E /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		69E5E3641E4960A90082246E /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
+		69E5E3651E4960A90082246E /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		69E5E3661E4960A90082246E /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
+		69E5E3671E4960A90082246E /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		69E5E3681E4960A90082246E /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		69E5E3691E4960A90082246E /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
+		69E5E36A1E4960A90082246E /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
+		69E5E36B1E4960A90082246E /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		69E5E36C1E4960A90082246E /* vcTransition1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition1.json; sourceTree = "<group>"; };
+		69E5E36D1E4960A90082246E /* vcTransition2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition2.json; sourceTree = "<group>"; };
+		69E5E36E1E4960A90082246E /* Watermelon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Watermelon.json; sourceTree = "<group>"; };
+		75CF820B9709E57CD88BF96A /* Pods-LottieAnimationSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimationSwift/Pods-LottieAnimationSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		A7665F5DA734EC0A7E03ADCC /* Pods-LottieAnimationSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimationSwift/Pods-LottieAnimationSwift.release.xcconfig"; sourceTree = "<group>"; };
+		F2DE04180EC5311334B05058 /* Pods_LottieAnimationSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimationSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69E5E31E1E4952FE0082246E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A67709EB241BD5B648BAAB /* Pods_LottieAnimationSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104CCE25EC6E841AB94F573F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75CF820B9709E57CD88BF96A /* Pods-LottieAnimationSwift.debug.xcconfig */,
+				A7665F5DA734EC0A7E03ADCC /* Pods-LottieAnimationSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69E5E3181E4952FE0082246E = {
+			isa = PBXGroup;
+			children = (
+				69E5E3431E4960A90082246E /* Animations */,
+				69E5E3231E4952FF0082246E /* LottieAnimationSwift */,
+				69E5E3221E4952FF0082246E /* Products */,
+				104CCE25EC6E841AB94F573F /* Pods */,
+				D4D11622630D97B0F54F86F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69E5E3221E4952FF0082246E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69E5E3211E4952FF0082246E /* LottieAnimationSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69E5E3231E4952FF0082246E /* LottieAnimationSwift */ = {
+			isa = PBXGroup;
+			children = (
+				69E5E3241E4952FF0082246E /* AppDelegate.swift */,
+				69E5E3261E4952FF0082246E /* ViewController.swift */,
+				69E5E3281E4952FF0082246E /* Main.storyboard */,
+				69E5E32B1E4952FF0082246E /* Assets.xcassets */,
+				69E5E32D1E4952FF0082246E /* LaunchScreen.storyboard */,
+				69E5E3301E4952FF0082246E /* Info.plist */,
+			);
+			path = LottieAnimationSwift;
+			sourceTree = "<group>";
+		};
+		69E5E3431E4960A90082246E /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				69E5E3441E4960A90082246E /* 9squares-AlBoardman.json */,
+				69E5E3451E4960A90082246E /* HamburgerArrow.json */,
+				69E5E3461E4960A90082246E /* IconTransitions.json */,
+				69E5E3471E4960A90082246E /* LottieLogo1.json */,
+				69E5E3481E4960A90082246E /* LottieLogo1_masked.json */,
+				69E5E3491E4960A90082246E /* LottieLogo2.json */,
+				69E5E34A1E4960A90082246E /* MotionCorpse-Jrcanest.json */,
+				69E5E34B1E4960A90082246E /* PinJump.json */,
+				69E5E34C1E4960A90082246E /* TwitterHeart.json */,
+				69E5E34D1E4960A90082246E /* TypeFace */,
+				69E5E36C1E4960A90082246E /* vcTransition1.json */,
+				69E5E36D1E4960A90082246E /* vcTransition2.json */,
+				69E5E36E1E4960A90082246E /* Watermelon.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		69E5E34D1E4960A90082246E /* TypeFace */ = {
+			isa = PBXGroup;
+			children = (
+				69E5E34E1E4960A90082246E /* A.json */,
+				69E5E34F1E4960A90082246E /* Apostrophe.json */,
+				69E5E3501E4960A90082246E /* B.json */,
+				69E5E3511E4960A90082246E /* BlinkingCursor.json */,
+				69E5E3521E4960A90082246E /* C.json */,
+				69E5E3531E4960A90082246E /* Colon.json */,
+				69E5E3541E4960A90082246E /* Comma.json */,
+				69E5E3551E4960A90082246E /* D.json */,
+				69E5E3561E4960A90082246E /* E.json */,
+				69E5E3571E4960A90082246E /* F.json */,
+				69E5E3581E4960A90082246E /* G.json */,
+				69E5E3591E4960A90082246E /* H.json */,
+				69E5E35A1E4960A90082246E /* I.json */,
+				69E5E35B1E4960A90082246E /* J.json */,
+				69E5E35C1E4960A90082246E /* K.json */,
+				69E5E35D1E4960A90082246E /* L.json */,
+				69E5E35E1E4960A90082246E /* M.json */,
+				69E5E35F1E4960A90082246E /* N.json */,
+				69E5E3601E4960A90082246E /* O.json */,
+				69E5E3611E4960A90082246E /* P.json */,
+				69E5E3621E4960A90082246E /* Q.json */,
+				69E5E3631E4960A90082246E /* R.json */,
+				69E5E3641E4960A90082246E /* S.json */,
+				69E5E3651E4960A90082246E /* T.json */,
+				69E5E3661E4960A90082246E /* U.json */,
+				69E5E3671E4960A90082246E /* V.json */,
+				69E5E3681E4960A90082246E /* W.json */,
+				69E5E3691E4960A90082246E /* X.json */,
+				69E5E36A1E4960A90082246E /* Y.json */,
+				69E5E36B1E4960A90082246E /* Z.json */,
+			);
+			path = TypeFace;
+			sourceTree = "<group>";
+		};
+		D4D11622630D97B0F54F86F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2DE04180EC5311334B05058 /* Pods_LottieAnimationSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69E5E3201E4952FE0082246E /* LottieAnimationSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E5E3331E4952FF0082246E /* Build configuration list for PBXNativeTarget "LottieAnimationSwift" */;
+			buildPhases = (
+				A7AB1950D1999BE8C63EFFF0 /* [CP] Check Pods Manifest.lock */,
+				69E5E31D1E4952FE0082246E /* Sources */,
+				69E5E31E1E4952FE0082246E /* Frameworks */,
+				69E5E31F1E4952FE0082246E /* Resources */,
+				B23BC81AF04B38164D1C1AAF /* [CP] Embed Pods Frameworks */,
+				6FC315A92F4F8F5DC092A216 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottieAnimationSwift;
+			productName = LottieAnimationSwift;
+			productReference = 69E5E3211E4952FF0082246E /* LottieAnimationSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69E5E3191E4952FE0082246E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Stephen Myers";
+				TargetAttributes = {
+					69E5E3201E4952FE0082246E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F9DR8RPA25;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 69E5E31C1E4952FE0082246E /* Build configuration list for PBXProject "LottieAnimationSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69E5E3181E4952FE0082246E;
+			productRefGroup = 69E5E3221E4952FF0082246E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69E5E3201E4952FE0082246E /* LottieAnimationSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69E5E31F1E4952FE0082246E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E5E38D1E4960A90082246E /* R.json in Resources */,
+				69E5E3831E4960A90082246E /* H.json in Resources */,
+				69E5E3811E4960A90082246E /* F.json in Resources */,
+				69E5E37A1E4960A90082246E /* B.json in Resources */,
+				69E5E37D1E4960A90082246E /* Colon.json in Resources */,
+				69E5E3921E4960A90082246E /* W.json in Resources */,
+				69E5E32F1E4952FF0082246E /* LaunchScreen.storyboard in Resources */,
+				69E5E3891E4960A90082246E /* N.json in Resources */,
+				69E5E3881E4960A90082246E /* M.json in Resources */,
+				69E5E37E1E4960A90082246E /* Comma.json in Resources */,
+				69E5E3821E4960A90082246E /* G.json in Resources */,
+				69E5E36F1E4960A90082246E /* 9squares-AlBoardman.json in Resources */,
+				69E5E32C1E4952FF0082246E /* Assets.xcassets in Resources */,
+				69E5E3781E4960A90082246E /* A.json in Resources */,
+				69E5E3721E4960A90082246E /* LottieLogo1.json in Resources */,
+				69E5E3961E4960A90082246E /* vcTransition1.json in Resources */,
+				69E5E3971E4960A90082246E /* vcTransition2.json in Resources */,
+				69E5E38C1E4960A90082246E /* Q.json in Resources */,
+				69E5E3701E4960A90082246E /* HamburgerArrow.json in Resources */,
+				69E5E37C1E4960A90082246E /* C.json in Resources */,
+				69E5E38E1E4960A90082246E /* S.json in Resources */,
+				69E5E3931E4960A90082246E /* X.json in Resources */,
+				69E5E3841E4960A90082246E /* I.json in Resources */,
+				69E5E3751E4960A90082246E /* MotionCorpse-Jrcanest.json in Resources */,
+				69E5E38B1E4960A90082246E /* P.json in Resources */,
+				69E5E3951E4960A90082246E /* Z.json in Resources */,
+				69E5E3791E4960A90082246E /* Apostrophe.json in Resources */,
+				69E5E3711E4960A90082246E /* IconTransitions.json in Resources */,
+				69E5E37F1E4960A90082246E /* D.json in Resources */,
+				69E5E32A1E4952FF0082246E /* Main.storyboard in Resources */,
+				69E5E3911E4960A90082246E /* V.json in Resources */,
+				69E5E3771E4960A90082246E /* TwitterHeart.json in Resources */,
+				69E5E3861E4960A90082246E /* K.json in Resources */,
+				69E5E3871E4960A90082246E /* L.json in Resources */,
+				69E5E3981E4960A90082246E /* Watermelon.json in Resources */,
+				69E5E3801E4960A90082246E /* E.json in Resources */,
+				69E5E3741E4960A90082246E /* LottieLogo2.json in Resources */,
+				69E5E37B1E4960A90082246E /* BlinkingCursor.json in Resources */,
+				69E5E3941E4960A90082246E /* Y.json in Resources */,
+				69E5E3731E4960A90082246E /* LottieLogo1_masked.json in Resources */,
+				69E5E38F1E4960A90082246E /* T.json in Resources */,
+				69E5E38A1E4960A90082246E /* O.json in Resources */,
+				69E5E3761E4960A90082246E /* PinJump.json in Resources */,
+				69E5E3851E4960A90082246E /* J.json in Resources */,
+				69E5E3901E4960A90082246E /* U.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FC315A92F4F8F5DC092A216 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottieAnimationSwift/Pods-LottieAnimationSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7AB1950D1999BE8C63EFFF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B23BC81AF04B38164D1C1AAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LottieAnimationSwift/Pods-LottieAnimationSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69E5E31D1E4952FE0082246E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E5E3271E4952FF0082246E /* ViewController.swift in Sources */,
+				69E5E3251E4952FF0082246E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69E5E3281E4952FF0082246E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E5E3291E4952FF0082246E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69E5E32D1E4952FF0082246E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E5E32E1E4952FF0082246E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69E5E3311E4952FF0082246E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69E5E3321E4952FF0082246E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69E5E3341E4952FF0082246E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75CF820B9709E57CD88BF96A /* Pods-LottieAnimationSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F9DR8RPA25;
+				INFOPLIST_FILE = LottieAnimationSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = projects.Stephen.LottieAnimationSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69E5E3351E4952FF0082246E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7665F5DA734EC0A7E03ADCC /* Pods-LottieAnimationSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F9DR8RPA25;
+				INFOPLIST_FILE = LottieAnimationSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = projects.Stephen.LottieAnimationSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69E5E31C1E4952FE0082246E /* Build configuration list for PBXProject "LottieAnimationSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E5E3311E4952FF0082246E /* Debug */,
+				69E5E3321E4952FF0082246E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E5E3331E4952FF0082246E /* Build configuration list for PBXNativeTarget "LottieAnimationSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E5E3341E4952FF0082246E /* Debug */,
+				69E5E3351E4952FF0082246E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69E5E3191E4952FE0082246E /* Project object */;
+}
