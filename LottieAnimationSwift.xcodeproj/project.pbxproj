@@ -54,6 +54,9 @@
 		69E5E3961E4960A90082246E /* vcTransition1.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E36C1E4960A90082246E /* vcTransition1.json */; };
 		69E5E3971E4960A90082246E /* vcTransition2.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E36D1E4960A90082246E /* vcTransition2.json */; };
 		69E5E3981E4960A90082246E /* Watermelon.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E36E1E4960A90082246E /* Watermelon.json */; };
+		69E5E39A1E49766A0082246E /* IntroN.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E3991E49766A0082246E /* IntroN.json */; };
+		69E5E39C1E4979070082246E /* IntroQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E39B1E4979070082246E /* IntroQ.json */; };
+		69E5E39E1E497AB00082246E /* hubub.json in Resources */ = {isa = PBXBuildFile; fileRef = 69E5E39D1E497AB00082246E /* hubub.json */; };
 		83A67709EB241BD5B648BAAB /* Pods_LottieAnimationSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DE04180EC5311334B05058 /* Pods_LottieAnimationSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +110,9 @@
 		69E5E36C1E4960A90082246E /* vcTransition1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition1.json; sourceTree = "<group>"; };
 		69E5E36D1E4960A90082246E /* vcTransition2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition2.json; sourceTree = "<group>"; };
 		69E5E36E1E4960A90082246E /* Watermelon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Watermelon.json; sourceTree = "<group>"; };
+		69E5E3991E49766A0082246E /* IntroN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IntroN.json; sourceTree = "<group>"; };
+		69E5E39B1E4979070082246E /* IntroQ.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IntroQ.json; sourceTree = "<group>"; };
+		69E5E39D1E497AB00082246E /* hubub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hubub.json; sourceTree = "<group>"; };
 		75CF820B9709E57CD88BF96A /* Pods-LottieAnimationSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimationSwift/Pods-LottieAnimationSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		A7665F5DA734EC0A7E03ADCC /* Pods-LottieAnimationSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottieAnimationSwift/Pods-LottieAnimationSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F2DE04180EC5311334B05058 /* Pods_LottieAnimationSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimationSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +174,9 @@
 		69E5E3431E4960A90082246E /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				69E5E39D1E497AB00082246E /* hubub.json */,
+				69E5E39B1E4979070082246E /* IntroQ.json */,
+				69E5E3991E49766A0082246E /* IntroN.json */,
 				69E5E3441E4960A90082246E /* 9squares-AlBoardman.json */,
 				69E5E3451E4960A90082246E /* HamburgerArrow.json */,
 				69E5E3461E4960A90082246E /* IconTransitions.json */,
@@ -294,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69E5E38D1E4960A90082246E /* R.json in Resources */,
+				69E5E39A1E49766A0082246E /* IntroN.json in Resources */,
 				69E5E3831E4960A90082246E /* H.json in Resources */,
 				69E5E3811E4960A90082246E /* F.json in Resources */,
 				69E5E37A1E4960A90082246E /* B.json in Resources */,
@@ -332,10 +342,12 @@
 				69E5E3741E4960A90082246E /* LottieLogo2.json in Resources */,
 				69E5E37B1E4960A90082246E /* BlinkingCursor.json in Resources */,
 				69E5E3941E4960A90082246E /* Y.json in Resources */,
+				69E5E39E1E497AB00082246E /* hubub.json in Resources */,
 				69E5E3731E4960A90082246E /* LottieLogo1_masked.json in Resources */,
 				69E5E38F1E4960A90082246E /* T.json in Resources */,
 				69E5E38A1E4960A90082246E /* O.json in Resources */,
 				69E5E3761E4960A90082246E /* PinJump.json in Resources */,
+				69E5E39C1E4979070082246E /* IntroQ.json in Resources */,
 				69E5E3851E4960A90082246E /* J.json in Resources */,
 				69E5E3901E4960A90082246E /* U.json in Resources */,
 			);
